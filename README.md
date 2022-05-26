@@ -14,8 +14,8 @@ Do you want to showcase a github repository or profile on your website? Instead 
 ## Usage
 Simply set the html **data** field with a GitHub profile, repository, or repositories tab url...
 ```html
-<script src="d29mk5socxaj4o.cloudfront.net/GitHubPinner.js"></script>
-<div data="https://github.com/mackboudreau?tab=repositories" class="github-pinner" style="visibility: hidden;"></div>
+<script src="https://luisboto.github.io/github-pinner/GitHubPinner.js"></script>
+<div data="https://github.com/LuisBoto/github-pinner" class="github-pinner" style="visibility: hidden;"></div>
 ```
 
 ## Preview
