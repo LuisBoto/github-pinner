@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg">
 </a>
   <img src="https://img.shields.io/badge/language-HTML5-red.svg">
-  <img src="https://img.shields.io/github/issues/mackboudreau/GitHubPinner.svg">
+  <img src="https://img.shields.io/github/issues/luisboto/github-pinner.svg">
 </p>
 
 
