@@ -54,7 +54,7 @@
             }
             child.innerHTML = temp
           } else {
-            var temp = "<input type=\"text\" placeholder=\"Search for project...\" value=\"" + filter + "\" class=\"gp-search\"></input><div id=\"gp-container-all-repos\">"
+            var temp = "<input size=\"30\" type=\"text\" placeholder=\"Search for project...\" value=\"" + filter + "\" class=\"gp-search\"></input><div id=\"gp-container-all-repos\">"
             for (j = 0; j < obj.length; j++) {
                 temp += getRepo(obj[j])
             }
