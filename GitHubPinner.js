@@ -71,7 +71,7 @@
   }
 
   function search(e) {
-    loadElements(e.path[1], e.target.value)
+    loadElements(e.composedPath()[1], e.target.value)
   }
 
   function getRepo(obj) {
