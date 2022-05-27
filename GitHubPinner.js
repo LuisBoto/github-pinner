@@ -71,7 +71,7 @@
   }
 
   function search(e) {
-    loadElements(e.path[1], e.target.value)
+    loadElements(e.composedPath()[1], e.target.value)
   }
 
   function getRepo(obj) {
@@ -87,7 +87,7 @@
     var styleref = document.createElement("link")
     styleref.rel = "stylesheet"
     styleref.type = "text/css"
-    styleref.href = "https://luisboto.github.io/github-pinner/css/style.css" // "https://d29mk5socxaj4o.cloudfront.net/css/style.css"
+    styleref.href = "https://luisboto.github.io/github-pinner/css/style.css"
     document.getElementsByTagName("head")[0].prepend(styleref)
   }
 
