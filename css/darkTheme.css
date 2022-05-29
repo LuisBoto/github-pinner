@@ -1,0 +1,88 @@
+.github-pinner.theme-dark {
+    background-color: #0D1117;
+    border: 1px solid #22282E;
+}
+
+.github-pinner.gp-all.theme-dark {
+    background-color: #0D1117;
+}
+
+.github-pinner.theme-dark #gp-container-profile > #gp-information .gp-link > .gp-name:hover, .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user:hover {
+    color: #C9D1D9;
+}
+
+.github-pinner.theme-dark #gp-container-profile > #gp-information .gp-link > .gp-user {
+    color: #8B949E;
+}
+
+.github-pinner.theme-dark #gp-container-profile > #gp-information > .gp-bio {
+    color: #C9D1D9;
+}
+
+.github-pinner.theme-dark #gp-container-profile .gp-btn:hover {
+    background-color: #30363D;
+    background-image: linear-gradient(-180deg, #21262D 0%, #30363D 90%);
+    border-color: #8B949E35;
+}
+
+.github-pinner.theme-dark #gp-container-profile .gp-btn {
+    border: 1px solid rgba(27,31,35,0.2);
+    color: #C9D1D9;
+    background-color: #21262D;
+    background-image: linear-gradient(-180deg, #21262D 0%, #30363D 90%);
+}
+
+.github-pinner.theme-dark #gp-container-profile > .gp-stats .gp-stat {
+    border-right: 1px solid #eaecef;
+    color: #21262d;
+}
+
+.github-pinner.theme-dark #gp-container-profile > .gp-stats .gp-stat:hover .gp-stat-desc, .github-pinner #gp-container-profile > .gp-stats .gp-stat:hover .gp-stat-val {
+    color: #58A6FF;
+}
+
+.github-pinner.theme-dark #gp-container-profile > .gp-stats .gp-stat-val {
+    color: #c9d1d9;
+}
+
+.github-pinner.theme-dark #gp-container-profile > .gp-stats .gp-stat-desc {
+    color: #21262d;
+}
+
+.github-pinner.theme-dark #gp-container-repo .gp-title {
+    color: #58A6FF;
+}
+
+.github-pinner.theme-dark #gp-container-repo .gp-desc {
+    color: #8B949E !important;
+}
+
+.github-pinner.theme-dark #gp-container-repo #gp-stats .gp-stat {
+    color: #8B949E !important;
+}
+
+.github-pinner.theme-dark #gp-container-repo #gp-stats .gp-stat .gp-lang {
+    background-color: #f1e05a;
+}
+
+.github-pinner.theme-dark #gp-container-repo #gp-stats .gp-stat.gp-link:hover {
+    color: #58A6FF !important;
+}
+
+.github-pinner.theme-dark .gp-search {
+    border: 1px solid #e1e4e8;
+    background-blend-mode: red;
+}
+
+.github-pinner.theme-dark .gp-search:focus {
+    border-color: #58A6FF;
+}
+
+.github-pinner.theme-dark #gp-container-all-repos > #gp-container-repo {
+    border-bottom: 1px solid #21262D;
+}
+
+/* Additional Styles */
+.github-pinner.flat.theme-dark .gp-btn {
+    background-color: #0D1117;
+}

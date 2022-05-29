@@ -54,9 +54,7 @@
 }
 
 .github-pinner.theme-normal #gp-container-repo .gp-desc {
-    margin-top: 5px;
     color: #586069 !important;
-    font-size: 12px !important;
 }
 
 .github-pinner.theme-normal #gp-container-repo #gp-stats .gp-stat {

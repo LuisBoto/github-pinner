@@ -6,7 +6,8 @@
   }
   
   let themes = {
-    normal: "theme-normal"
+    normal: "theme-normal",
+    dark: "theme-dark",
   }
 
   // MARK: - Main
