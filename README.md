@@ -19,11 +19,20 @@ Simply set the html **data** field with a GitHub profile, repository, or reposit
 ```
 
 ## Preview
-<p align="center"><img src=".readme/profile-example.png"><br>
-<img src=".readme/repo-example.png"></p>
+Setting the html **theme** field sets the look and feel:
+
+- Normal theme (**theme="normal"**):
+  <p align="center">
+    <img src=".readme/profile-example.png"><br>
+    <img src=".readme/repo-example.png">
+  </p>
+- Dark theme (**theme="dark"**):
+  <p align="center">
+    <img src=".readme/dark-profile-example.png"><br>
+    <img src=".readme/dark-repo-example.png">
+  </p>
 
 ## TODO
 * Implement functionality for a "All Repos" element
-* Add additional option styles for tiles
 * Expanding width "All-repo" section
 * Hover-able icon with GitHub Profile popup
