@@ -1,10 +1,10 @@
+@import "./normalTheme.css";
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner {
-  background-color: white;
-  border: 1px solid #e1e4e8;
   padding: 15px;
   border-radius: 5px;
 }
@@ -19,7 +19,6 @@ body {
 }
 
 .github-pinner.gp-all {
-  background-color: white;
   border-radius: 3px;
   width: 300px;
 }
@@ -56,7 +55,6 @@ body {
 
 .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-name:hover, .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user:hover {
   cursor: pointer;
-  color: #0366d6;
 }
 
 .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-name {
@@ -67,7 +65,6 @@ body {
 .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user {
   display: block;
   font-size: 16px;
-  color: #666;
   font-style: normal;
   font-weight: 300;
 }
@@ -75,14 +72,10 @@ body {
 .github-pinner #gp-container-profile > #gp-information > .gp-bio {
   margin-top: 5px;
   font-size: 13px;
-  color: #6a737d;
 }
 
 .github-pinner #gp-container-profile .gp-btn:hover {
-    background-color: #e6ebf1;
-    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
     background-position: 0 -0.5em;
-    border-color: rgba(27,31,35,0.35);
 }
 
 .github-pinner #gp-container-profile .gp-btn {
@@ -94,7 +87,6 @@ body {
     background-repeat: repeat-x;
     background-position: -1px -1px;
     background-size: 110% 110%;
-    border: 1px solid rgba(27,31,35,0.2);
     border-radius: 0.25em;
     -webkit-appearance: none;
     user-select: none;
@@ -105,9 +97,6 @@ body {
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
-    color: #24292e;
-    background-color: #eff3f6;
-    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
 }
 
 .github-pinner #gp-container-profile > .gp-stats {
@@ -118,8 +107,6 @@ body {
 .github-pinner #gp-container-profile > .gp-stats .gp-stat {
   text-decoration: none;
   width: 70px;
-  border-right: 1px solid #eaecef;
-  color: #586069;
   cursor: pointer;
   display: inline-block;
   padding: 0 6px;
@@ -130,18 +117,13 @@ body {
   border-right: none;
 }
 
-.github-pinner #gp-container-profile > .gp-stats .gp-stat:hover .gp-stat-desc, .github-pinner #gp-container-profile > .gp-stats .gp-stat:hover .gp-stat-val {
-  color: #0366d6;
-}
-
 .github-pinner #gp-container-profile > .gp-stats .gp-stat-val {
-  color: #586069;
   font-size: 19px;
   text-align: center;
   display: block;
 }
+
 .github-pinner #gp-container-profile > .gp-stats .gp-stat-desc {
-  color: #7b828a;
   font-size: 11px;
   text-align: center;
   display: block;
@@ -155,7 +137,6 @@ body {
 
 .github-pinner #gp-container-repo .gp-title {
   text-decoration: none;
-  color: #0366d6;
   font-size: 14px;
   font-weight: 600 !important;
 }
@@ -166,7 +147,6 @@ body {
 
 .github-pinner #gp-container-repo .gp-desc {
   margin-top: 5px;
-  color: #586069 !important;
   font-size: 12px !important;
 }
 
@@ -175,7 +155,6 @@ body {
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat {
   text-decoration: none;
-  color: #586069 !important;
   font-size: 12px !important;
   display: inline-block;
   margin: 0 0;
@@ -194,7 +173,6 @@ body {
 }
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat .gp-lang {
-  background-color: #f1e05a;
   position: relative;
   top: 2px;
   display: inline-block;
@@ -210,7 +188,6 @@ body {
 }
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat.gp-link:hover {
-  color: #0366d6 !important;
   text-decoration: none;
 }
 
@@ -230,7 +207,6 @@ body {
   -moz-box-shadow: none;
   box-shadow: none;
 
-  border: 1px solid #e1e4e8;
   padding: 10px 12px;
   padding-left: 35px;
   font-size: 14px;
@@ -240,18 +216,15 @@ body {
   background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position: 12px center;
-  background-blend-mode: red;
 }
 
 .github-pinner .gp-search:focus {
   background-image: url("https://luisboto.github.io/github-pinner/css/search-highlight.svg");
-  border-color: #3B9CEA;
 }
 
 .github-pinner #gp-container-all-repos > #gp-container-repo {
   margin: 12px 0;
   padding-bottom: 12px;
-  border-bottom: 1px solid #e1e4e8;
 }
 
 .github-pinner #gp-container-all-repos > #gp-container-repo:last-child {
@@ -263,9 +236,4 @@ body {
   z-index: 1;
   bottom: 10px;
   right: 10px;
-}
-
-/* Additional Styles */
-.github-pinner.flat .gp-btn {
-  background-color: blue;
 }

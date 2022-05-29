@@ -1,8 +1,12 @@
 (function() {
-  var types = {
+  let types = {
     PROFILE : 0,
     REPO : 1,
     ALL : 2
+  }
+  
+  let themes = {
+    normal: "theme-normal"
   }
 
   // MARK: - Main
@@ -17,7 +21,7 @@
   }
 
   function loadElements(parent, filter = "") {
-    var values = parseUrl(parent.getAttribute("data"))
+    let values = parseUrl(parent.getAttribute("data"))
     getDataForUrl(values["URL"], values["TYPE"], parent, function(obj, type, element) {
       // set up DOM elements
       if (type == types["PROFILE"]) {
@@ -66,6 +70,7 @@
             }
           }
       }
+      element.className += " " + themes[parent.getAttribute("theme")];
       element.style.visibility = "visible"
     })
   }
