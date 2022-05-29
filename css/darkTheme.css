@@ -8,21 +8,21 @@
 }
 
 .github-pinner.theme-dark #gp-container-profile > #gp-information .gp-link > .gp-name:hover, .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user:hover {
-    color: #C9D1D9;
+    color: white; /* Profile name on hover */
 }
 
-.github-pinner.theme-dark #gp-container-profile > #gp-information .gp-link > .gp-user {
-    color: #8B949E;
+.github-pinner.theme-dark #gp-container-profile > #gp-information .gp-link > .gp-name, .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user {
+    color: #C9D1D9; /* Profile name */
 }
 
 .github-pinner.theme-dark #gp-container-profile > #gp-information > .gp-bio {
-    color: #C9D1D9;
+    color: #C9D1D9; /* Profile bio */
 }
 
 .github-pinner.theme-dark #gp-container-profile .gp-btn:hover {
     background-color: #30363D;
     background-image: linear-gradient(-180deg, #21262D 0%, #30363D 90%);
-    border-color: #8B949E35;
+    border-color: #8B949E;
 }
 
 .github-pinner.theme-dark #gp-container-profile .gp-btn {
@@ -46,7 +46,7 @@
 }
 
 .github-pinner.theme-dark #gp-container-profile > .gp-stats .gp-stat-desc {
-    color: #21262d;
+    color: #c9d1d9;
 }
 
 .github-pinner.theme-dark #gp-container-repo .gp-title {
