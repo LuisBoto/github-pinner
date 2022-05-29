@@ -21,7 +21,7 @@
 
 .github-pinner.theme-dark #gp-container-profile .gp-btn:hover {
     background-color: #30363D;
-    background-image: linear-gradient(-180deg, #21262D 0%, #30363D 90%);
+    /* background-image: linear-gradient(-180deg, #30363D 0%, #21262D 90%); */
     border-color: #8B949E;
 }
 
@@ -29,7 +29,7 @@
     border: 1px solid rgba(27,31,35,0.2);
     color: #C9D1D9;
     background-color: #21262D;
-    background-image: linear-gradient(-180deg, #21262D 0%, #30363D 90%);
+    /* background-image: linear-gradient(-180deg, #21262D 0%, #30363D 90%); */
 }
 
 .github-pinner.theme-dark #gp-container-profile > .gp-stats .gp-stat {
@@ -72,6 +72,7 @@
 .github-pinner.theme-dark .gp-search {
     border: 1px solid #e1e4e8;
     background-blend-mode: red;
+    color: white;
 }
 
 .github-pinner.theme-dark .gp-search:focus {
