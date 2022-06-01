@@ -1,0 +1,87 @@
+.github-pinner.theme-amoled {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.github-pinner.gp-all.theme-amoled {
+    background-color: black;
+}
+
+.github-pinner.theme-amoled #gp-container-profile > #gp-information .gp-link > .gp-name:hover, .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user:hover {
+    color: white; /* Profile name on hover */
+}
+
+.github-pinner.theme-amoled #gp-container-profile > #gp-information .gp-link > .gp-name, .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user {
+    color: white; /* Profile name */
+}
+
+.github-pinner.theme-amoled #gp-container-profile > #gp-information > .gp-bio {
+    color: white; /* Profile bio */
+}
+
+.github-pinner.theme-amoled #gp-container-profile .gp-btn:hover {
+    background-color: black;
+    border-color: white;
+}
+
+.github-pinner.theme-amoled #gp-container-profile .gp-btn {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+.github-pinner.theme-amoled #gp-container-profile > .gp-stats .gp-stat {
+    border-right: 1px solid white;
+    color: black;
+}
+
+.github-pinner.theme-amoled #gp-container-profile > .gp-stats .gp-stat:hover .gp-stat-desc, .github-pinner #gp-container-profile > .gp-stats .gp-stat:hover .gp-stat-val {
+    color: #71B7FF;
+}
+
+.github-pinner.theme-amoled #gp-container-profile > .gp-stats .gp-stat-val {
+    color: white;
+}
+
+.github-pinner.theme-amoled #gp-container-profile > .gp-stats .gp-stat-desc {
+    color: white;
+}
+
+.github-pinner.theme-amoled #gp-container-repo .gp-title {
+    color: #71B7FF;
+}
+
+.github-pinner.theme-amoled #gp-container-repo .gp-desc {
+    color: white !important;
+}
+
+.github-pinner.theme-amoled #gp-container-repo #gp-stats .gp-stat {
+    color: white !important;
+}
+
+.github-pinner.theme-amoled #gp-container-repo #gp-stats .gp-stat .gp-lang {
+    background-color: #f1e05a;
+}
+
+.github-pinner.theme-amoled #gp-container-repo #gp-stats .gp-stat.gp-link:hover {
+    color: #71B7FF !important;
+}
+
+.github-pinner.theme-amoled .gp-search {
+    border: 1px solid #e1e4e8;
+    background-blend-mode: red;
+    color: white;
+}
+
+.github-pinner.theme-amoled .gp-search:focus {
+    border-color: #71B7FF;
+}
+
+.github-pinner.theme-amoled #gp-container-all-repos > #gp-container-repo {
+    border-bottom: 1px solid white;
+}
+
+/* Additional Styles */
+.github-pinner.flat.theme-amoled .gp-btn {
+    background-color: black;
+}

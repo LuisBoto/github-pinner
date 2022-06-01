@@ -8,6 +8,7 @@
   let themes = {
     normal: "theme-normal",
     dark: "theme-dark",
+    amoled: "theme-amoled"
   }
 
   // MARK: - Main
