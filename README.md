@@ -31,6 +31,11 @@ Setting the html **theme** field sets the look and feel:
     <img src=".readme/dark-profile-example.png"><br>
     <img src=".readme/dark-repo-example.png">
   </p>
+- Amoled theme (**theme="amoled"**):
+  <p align="center">
+    <img src=".readme/amoled-profile-example.png"><br>
+    <img src=".readme/amoled-repo-example.png">
+  </p>
 
 ## TODO
 * Implement functionality for a "All Repos" element
