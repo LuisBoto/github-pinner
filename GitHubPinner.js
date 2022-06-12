@@ -126,7 +126,7 @@
   // MARK: - Helper Functions
   function parseUrl(url) {
     profile = /^(http|https):\/\/(www.)?github.com(\/)?\/[A-Za-z\d-]{1,39}(\/)?$/;
-    repository = /^(http|https):\/\/(www.)?github.com\/[A-Za-z\d-]{1,39}\/[A-Za-z\d-]{1,100}(\/)?$/;
+    repository = /^(http|https):\/\/(www.)?github.com\/[A-Za-z\d-]{1,39}\/[A-Za-z0-9~@#$^*()_+=[\]{}|\\,.?: -]{1,100}(\/)?$/;
     repositories = /^(http|https):\/\/(www.)?github.com\/[A-Za-z\d-]{1,39}\?tab=repositories(\/)?$/;
     if (profile.test(url)) {
       // profile
